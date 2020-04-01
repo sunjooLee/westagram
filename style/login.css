@@ -1,0 +1,121 @@
+/* wrapper */
+
+.wrapper {
+
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    flex-direction: column;
+    width: 350px;
+    border: 1px solid #dbdbdb;
+    margin: 130px auto;
+    background: #ffffff;
+
+}
+
+/* container */
+
+.container {
+
+    flex:none;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    flex-direction: column;
+
+    margin: 0 0 10px;
+    padding: 10px 0px;
+
+}
+  
+.logo-area {
+
+    flex: none;
+    display: flex;
+    justify-content: center;
+    margin: 22px 86.5px 12px;
+
+}
+  
+img {
+  
+    flex: none;
+    height: 51px;
+    margin: 0 auto;
+}
+
+/*LOGIN-AREA*/
+
+
+.login-area {
+
+    width: 300px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.js-form {
+
+    flex: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.id-check {
+
+    margin: 3px 0px;
+    padding: 10px;
+    border: 1px solid #efefef;
+    background: #fafafa;
+    border-radius: 3px;
+    font-size: 14px;
+  
+}
+
+.pw-check { 
+
+    margin: 3px 0px;
+    padding: 10px;
+    border: 1px solid #efefef;
+    background: #fafafa;
+    border-radius: 3px;
+    font-size: 14px;
+
+}
+
+.btn {
+
+    flex: none;
+    margin: 20px auto;
+    background: #c5e1fa;
+    width: 300px;
+    height: 30px;
+    border-radius: 3px;
+    color: #ffffff;
+    border: none;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+
+a {
+    color: #29547e;
+    flex: none;
+    margin: 60px auto;
+    font-family: sans-serif;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+/* bg */
+
+body {
+    background:#fafafa;
+}
+  
+ 

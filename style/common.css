@@ -1,0 +1,14 @@
+
+.wrapper-main {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+
+}
+
+* {
+    font-family: sans-serif;
+    font-size: 14px;
+}
